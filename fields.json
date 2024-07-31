@@ -17,70 +17,11 @@
     "value": 24,
     "group": "Typography"
   },
-  "fontWeight": {
-    "label": "Font Weight",
-    "type": "dropdown",
-    "value": "400",
-    "options": {
-      "100": "Thin (100)",
-      "300": "Light (300)",
-      "400": "Regular (400)",
-      "500": "Medium (500)",
-      "700": "Bold (700)",
-      "900": "Black (900)"
-    },
-    "group": "Message Settings"
-  },
-  "fontColor": {
-    "type": "colorpicker",
-    "label": "Font Color",
-    "value": "rgba(255,255,255,1)",
-    "group": "Message Settings"
-  },
-  "messagebackgroundColor": {
-    "type": "colorpicker",
-    "label": "Message Background Color",
-    "value": "rgba(255,255,255,1)",
-    "group": "Message Settings"
-  },
   "textShadow": {
     "type": "text",
     "label": "Text shadow",
     "value": "rgb(0, 0, 0) 1px 1px 1px",
     "group": "Typography"
-  },
-  "emoteSize": {
-    "type": "number",
-    "label": "Emote size",
-    "value": 24,
-    "group": "Message Settings"
-  },
-  "singleEmoteSize": {
-    "type": "number",
-    "label": "Single emote size",
-    "value": 72,
-    "group": "Message Settings"
-  },
-  "alignMessages": {
-    "label": "Align Messages",
-    "type": "dropdown",
-    "value": "flex-end",
-    "options": {
-      "flex-start": "Top",
-      "flex-end": "Bottom"
-    },
-    "group": "Chat settings"
-  },
-  "alignHorizontal": {
-    "label": "Message horizontal alignment",
-    "type": "dropdown",
-    "value": "center",
-    "options": {
-      "center": "Center",
-      "flex-start": "Left",
-      "flex-end": "Right"
-    },
-    "group": "Chat settings"
   },
   "nicknameLeft": {
     "label": "Left nickname position",
@@ -93,12 +34,6 @@
     "type": "number",
     "value": 0,
     "group": "Username settings"
-  },
-  "messageAndUsernameSpace": {
-    "type": "number",
-    "label": "Space between username and message",
-    "value": 0,
-    "group": "Chat settings"
   },
   "userBackgroundColor": {
     "type": "colorpicker",
@@ -133,6 +68,71 @@
       "none": "No"
     },
     "group": "Username settings"
+  },
+  "fontWeight": {
+    "label": "Font Weight",
+    "type": "dropdown",
+    "value": "400",
+    "options": {
+      "100": "Thin (100)",
+      "300": "Light (300)",
+      "400": "Regular (400)",
+      "500": "Medium (500)",
+      "700": "Bold (700)",
+      "900": "Black (900)"
+    },
+    "group": "Message Settings"
+  },
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Font Color",
+    "value": "rgba(255,255,255,1)",
+    "group": "Message Settings"
+  },
+  "messagebackgroundColor": {
+    "type": "colorpicker",
+    "label": "Message Background Color",
+    "value": "rgba(255,255,255,1)",
+    "group": "Message Settings"
+  },
+  "emoteSize": {
+    "type": "number",
+    "label": "Emote size",
+    "value": 24,
+    "group": "Message Settings"
+  },
+  "singleEmoteSize": {
+    "type": "number",
+    "label": "Single emote size",
+    "value": 72,
+    "group": "Message Settings"
+  },
+  "alignMessages": {
+    "label": "Align Messages",
+    "type": "dropdown",
+    "value": "flex-end",
+    "options": {
+      "flex-start": "Top",
+      "flex-end": "Bottom"
+    },
+    "group": "Chat settings"
+  },
+  "alignHorizontal": {
+    "label": "Message horizontal alignment",
+    "type": "dropdown",
+    "value": "center",
+    "options": {
+      "center": "Center",
+      "flex-start": "Left",
+      "flex-end": "Right"
+    },
+    "group": "Chat settings"
+  },
+  "messageAndUsernameSpace": {
+    "type": "number",
+    "label": "Space between username and message",
+    "value": 0,
+    "group": "Chat settings"
   },
   "messagesLimit": {
     "type": "number",
