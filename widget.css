@@ -1,0 +1,67 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
+@import url('https://fonts.googleapis.com/css?family={{fontName}}');
+
+* {
+  font-family: '{{fontName}}', sans-serif;
+  color: {{fontColor}};
+  font-weight: {{fontWeight}};
+  text-shadow:{textShadow};
+  font-size: {{fontSize}}px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: {{alignMessages}};
+  align-content: {{alignHorizontal}};
+  align-items: {{alignHorizontal}};
+  height:98%;
+}
+
+.message-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  align-items: {{alignHorizontal}};
+}
+
+.user-box{
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.33em;
+  padding: 0.25em;
+  background-color: {{userBackgroundColor}};
+  z-index: 99;
+  margin-bottom: {{messageAndUsernameSpace}}px;
+  margin-right: {{nicknameRight}}px;
+  margin-left: {{nicknameLeft}}px;
+}
+
+.user-box > span{
+  font-size: {{fontSize}}px;
+  font-weight: 600;
+}
+
+.user-message{
+  border-radius: 0.5em;
+  padding: 0.5em;
+  background-color: {{messagebackgroundColor}};
+  word-wrap: break-word;
+}
+
+.badge{
+  display:{{badgesVisibility}};
+  height:1em;
+}
+
+.emote{
+  height: {{emoteSize}}px;
+  vertical-align: middle;
+  background-repeat:no-repeat;
+}
+
+.action{
+  font-style: italic;
+}
