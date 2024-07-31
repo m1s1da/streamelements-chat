@@ -12,7 +12,7 @@
 .main-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: {{alignMessages}};
   align-content: {{alignHorizontal}};
   align-items: {{alignHorizontal}};

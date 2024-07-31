@@ -30,7 +30,7 @@
     "group": "Username settings"
   },
   "nicknameRight": {
-    "label": "Rught nickname position",
+    "label": "Right nickname position",
     "type": "number",
     "value": 0,
     "group": "Username settings"
