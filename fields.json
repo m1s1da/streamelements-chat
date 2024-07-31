@@ -269,6 +269,6 @@
   },
   "widgetUpdateUrl": {
     "type": "hidden",
-    "value": "https://github.com/StreamElements/widgets/blob/master/CustomChat/"
+    "value": "https://github.com/m1s1da/streamelements-chat/tree/main/"
   }
 }
